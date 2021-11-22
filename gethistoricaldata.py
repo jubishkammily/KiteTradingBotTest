@@ -10,7 +10,7 @@ import logging
 import os
 import datetime as dt
 import pandas as pd
-
+ 
 #generate trading session
 access_token = open("access_token.txt",'r').read()
 key_secret = open("my_det.txt",'r').read().split()
